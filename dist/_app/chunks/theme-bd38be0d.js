@@ -1,1 +1,0 @@
-import{R as e,T as t,D as o}from"./vendor-1110e278.js";const r=e(o({isDark:!1}),t(),"plantumlThemeStore"),l=["dark","synthwave","halloween","aqua","forest","luxury","black","dracula"],i=s=>{s.includes(" ")&&(s=s.split(" ")[1].trim());const a=l.includes(s);console.log("Setting theme",s),r.set({theme:s,isDark:a})};export{i as s,r as t};
